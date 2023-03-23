@@ -8,19 +8,45 @@
 body {
   background-color: hsl(218, 23%, 16%);
   color: hsl(193, 38%, 86%);
-  font-size: 28px;
   font-family: "Manrope", sans-serif;
 }
 
-.primary {
-  width: 50vw;
-  height: 50vh;
-  background-color: hsl(217, 19%, 38%);
-}
-
 .main {
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  width: 90%;
+  background-color: hsla(217, 19%, 38%, 0.4);
+  border-radius: 15px;
+  text-align: center;
+  padding: 4rem 0 6rem 0;
+  position: relative;
+}
+.card .card__title {
+  font-size: 0.8rem;
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.card .card__content {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+.card .card__desk {
+  display: none;
+}
+.card .card__mob {
+  padding: 0 0 2rem 0;
+}
+.card .card__btn {
+  position: absolute;
+  background-color: hsl(150, 100%, 66%);
+  padding: 1rem;
+  border-radius: 50%;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
