@@ -20,7 +20,7 @@ body {
 }
 
 .card {
-  width: 90%;
+  width: 40%;
   background-color: hsla(217, 19%, 38%, 0.4);
   border-radius: 15px;
   text-align: center;
@@ -34,14 +34,11 @@ body {
   letter-spacing: 0.3rem;
 }
 .card .card__content {
-  padding: 2rem 0;
+  padding: 2rem;
   font-size: 1.5rem;
 }
 .card .card__desk {
   display: none;
-}
-.card .card__mob {
-  padding: 0 0 2rem 0;
 }
 .card .card__btn {
   position: absolute;

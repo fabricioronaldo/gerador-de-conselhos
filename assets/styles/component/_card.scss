@@ -1,6 +1,6 @@
 
 .card {
-    width: 90%;
+    width: 40%;
     background-color: $grayish-blue;
     border-radius: 15px;
     text-align: center;
@@ -16,7 +16,7 @@
     }
 
     .card__content {
-        padding: 2rem 0;
+        padding: 2rem;
         font-size: 1.5rem;
     }
     .card__desk {
@@ -24,7 +24,7 @@
     }
 
     .card__mob {
-        padding: 0 0 2rem 0;
+        //padding: 0 0 2rem 0;
     }
 
     .card__btn {
