@@ -40,9 +40,6 @@ body {
   padding: 2rem;
   font-size: 1.5rem;
 }
-.card .card__mob {
-  display: none;
-}
 .card .card__btn {
   width: 60px;
   height: 60px;
@@ -60,4 +57,25 @@ body {
   color: #53FFAB;
   cursor: pointer;
   box-shadow: 0 0 40px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 768px) {
+  .card__title {
+    font-size: 0.5rem;
+  }
+  .card__content {
+    padding: 0.1rem;
+    font-size: 0.5rem;
+  }
+  .card {
+    width: 90%;
+  }
+  .card__desk {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .card__mob {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

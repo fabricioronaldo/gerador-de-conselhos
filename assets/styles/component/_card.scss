@@ -22,15 +22,7 @@
         padding: 2rem;
         font-size: 1.5rem;
     }
-    .card__desk {
-        //display: none;
-    }
-
-    .card__mob {
-        //padding: 0 0 2rem 0;
-        display: none;
-    }
-
+    
     .card__btn {
         width: 60px;
         height: 60px;
@@ -41,6 +33,7 @@
         bottom: -30px;
         
     }
+    
     .card__btn img {
         width: 100%;
         height: 100%;
@@ -52,4 +45,29 @@
         box-shadow: 0 0 40px $neon-green;
     }
     
+}
+
+@media(max-width: 768px){
+    .card__title {
+        font-size: .5rem;
+    }
+
+    .card__content {
+        padding: .1rem;
+        font-size: 0.5rem;
+    }
+    
+    .card {
+        width: 90%;
+    }
+
+    .card__desk {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .card__mob {
+        display: none;
+      }
 }
