@@ -20,7 +20,10 @@ body {
 }
 
 .card {
-  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
   background-color: hsla(217, 19%, 38%, 0.4);
   border-radius: 15px;
   text-align: center;
@@ -37,13 +40,24 @@ body {
   padding: 2rem;
   font-size: 1.5rem;
 }
-.card .card__desk {
+.card .card__mob {
   display: none;
 }
 .card .card__btn {
+  width: 60px;
+  height: 60px;
   position: absolute;
   background-color: hsl(150, 100%, 66%);
-  padding: 1rem;
+  padding: 1.1rem;
   border-radius: 50%;
-  bottom: 0;
+  bottom: -30px;
+}
+.card .card__btn img {
+  width: 100%;
+  height: 100%;
+}
+.card .card__btn:hover {
+  color: #53FFAB;
+  cursor: pointer;
+  box-shadow: 0 0 40px hsl(150, 100%, 66%);
 }/*# sourceMappingURL=style.css.map */

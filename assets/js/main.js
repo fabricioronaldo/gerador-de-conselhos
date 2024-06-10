@@ -1,4 +1,6 @@
 const url = "https://api.adviceslip.com/advice"
+const btn = document.querySelector(".card__btn")
+
 
 function getUsers(){
     fetch(url)
